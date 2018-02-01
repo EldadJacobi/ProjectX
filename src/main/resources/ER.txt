@@ -1,0 +1,108 @@
+[msg:ExecutionReport2:posDup: false
+orderId: "MY6Z-Y0O3-U01T"
+secondaryOrderId: "XE-4MIS2S"
+clOrdId: "weiming.tan@commerz1517101207840:2"
+securityId: 36592030449238045
+securityType: FX_SWAP
+symbol: "USD/JPY"
+marketSegmentId: EBSD_RFQ
+instrumentLeg {
+  settlDate: 17561
+}
+instrumentLeg {
+  settlDate: 17562
+}
+isTermCcy: true
+orderRoot {
+  rootSide: SELL
+  rootSwapPoints {
+    mantissa: -589
+    exponent: -5
+  }
+}
+quoteReqId: 3020697635917995712
+execId: "FE80-001D-0000-06"
+secondaryExecId: "XE-4MIS2S"
+execType: TRADE
+ordStatus: FILLED
+orderStatusLeg {
+  cumQty {
+    mantissa: 7
+    exponent: 9
+  }
+  leavesQty {
+    mantissa: 0
+    exponent: 0
+  }
+  avgPx {
+    mantissa: 10855989
+    exponent: -5
+  }
+}
+orderStatusLeg {
+  cumQty {
+    mantissa: 7
+    exponent: 9
+  }
+  leavesQty {
+    mantissa: 0
+    exponent: 0
+  }
+  avgPx {
+    mantissa: 108554
+    exponent: -3
+  }
+}
+transactTime: 1517185257965
+tradeLeg {
+  tradePx {
+    mantissa: 10855989
+    exponent: -5
+  }
+  tradeSpotRate {
+    mantissa: 108554
+    exponent: -3
+  }
+  tradeForwardPoints {
+    mantissa: 589
+    exponent: -5
+  }
+  tradeQty {
+    mantissa: 7
+    exponent: 9
+  }
+  legSide: BUY
+}
+tradeLeg {
+  tradePx {
+    mantissa: 108554
+    exponent: -3
+  }
+  tradeSpotRate {
+    mantissa: 108554
+    exponent: -3
+  }
+  tradeQty {
+    mantissa: 7
+    exponent: 9
+  }
+  legSide: SELL
+}
+executingParty {
+  floorKey: 5545
+  accountId: "CBFS"
+}
+counterParty {
+  floorKey: 5425
+  floorCode: "Z2JR"
+}
+clientOrderSubmitTime: 1517185257758
+lpOrderSubmitTime: 1517185257791
+lpOrderResponseTime: 1517185257938
+tradeMidSwapPoints {
+  mantissa: -595
+  exponent: -5
+}
+execAckScope: NO_ACKS
+counterPartyAccessMethod: FIX
+] 
