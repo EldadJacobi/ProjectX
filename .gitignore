@@ -1,0 +1,8 @@
+
+\.idea/
+
+backend/target/
+
+frontend/target/
+
+*.iml
